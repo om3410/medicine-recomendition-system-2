@@ -10,12 +10,12 @@ app = Flask(__name__)
 
 
 # load databasedataset===================================
-sym_des = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\medicine recomendition system\data set\symtoms_df.csv")
-precautions = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\medicine recomendition system\data set\precautions_df.csv")
-workout = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\medicine recomendition system\data set\workout_df.csv")
-description = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\medicine recomendition system\data set\description.csv")
-medications = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\medicine recomendition system\data set\medications.csv")
-diets = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\medicine recomendition system\data set\diets.csv")
+sym_des = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\Medicine Recommendiation System\medicine-recomendition-system\data set\symtoms_df.csv")
+precautions = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\Medicine Recommendiation System\medicine-recomendition-system\data set\precautions_df.csv")
+workout = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\Medicine Recommendiation System\medicine-recomendition-system\data set\workout_df.csv")
+description = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\Medicine Recommendiation System\medicine-recomendition-system\data set\description.csv")
+medications = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\Medicine Recommendiation System\medicine-recomendition-system\data set\medications.csv")
+diets = pd.read_csv(r"C:\Users\omrew\OneDrive\Documents\project\Medicine Recommendiation System\medicine-recomendition-system\data set\diets.csv")
 
 
 # load model===========================================
